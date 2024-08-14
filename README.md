@@ -37,11 +37,22 @@
 	```
 ## How to Set Up
 1. Clone this repo.
-2. Build Docker container.
+2. Create a Python virtual environment.
+	```
+	python3 -m venv env
+	```
+3. Activate the virtual environment.
+	```
+	source env/bin/activate
+	```
+4. Build Docker container.
 	```
 	docker compose up --build
 	```
-8. Run the Docker container after it has stopped.
+5. Run the Docker container after it has stopped.
 	```
 	docker compose up
 	```
+# Access the Documentation
+* [Swagger UI](http://localhost:8000/docs)
+* [ReDoc](http://localhost:8000/redoc)
