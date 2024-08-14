@@ -1,8 +1,7 @@
 # fastapi-docker
 ## Prerequisites
-- [ ] Python 3.12.5
-- [ ] Docker
-- [ ] Docker Compose
+- [ ] [Python 3.12.5](https://www.python.org/downloads/release/python-3125/)
+- [ ] [Docker](https://www.docker.com/)
 ## How I Made This
 1. Create a Python virtual environment.
 	```
