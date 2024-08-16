@@ -52,6 +52,6 @@ docker compose up --build
 ```
 docker compose up
 ```
-## Access the Documentation
+## Access the Tools
 * [Swagger UI](http://localhost:8000/docs)
 * [ReDoc](http://localhost:8000/redoc)
