@@ -1,8 +1,12 @@
 services:
   api:
-    build: .
-    container_name: "api"
-    command: sh -c "uvicorn main:app --reload --port=8000 --host=0.0.0.0"
+    build:
+      context: .
+      args:
+        requirements_file: ./requirements.txt
+    stdin_open: true
+    tty: true
+    command: sh -c "uvicorn app.main:app --reload --port=8000 --host=0.0.0.0"
     volumes:
       - ./app:/app
     ports:
